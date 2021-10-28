@@ -1,0 +1,85 @@
+body {
+  background-color: #3457b8;
+  padding: 0px 10%;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  width: 100%;
+  height: 250px;
+  border: gray 2px solid;
+}
+
+.titleDiv {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  color: white;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navItem {
+  float: left;
+  min-width: 19.9%;
+  border-right: solid #9e9e9e 1px;
+}
+
+.navItem:last-child {
+    border: none;
+}
+
+.navItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navItem a:hover {
+  background-color: #111111;
+}
+
+.menu { grid-area: menu; }
+.block { grid-area: block; }
+.gallery { grid-area: gallery; }
+.sub { grid-area: sub; }
+.other { grid-area: other; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu gallery gallery gallery'
+    'menu gallery gallery gallery '
+    'block sub other other'
+    'block sub other other';
+  grid-gap: 10px;
+  background-color: #36729f;
+  padding: 15px;
+}
+
+.grid-container h2 {
+    margin-left: 26px;
+}
+
+.menuList a{
+    color: #dfe0e1;
+}
+
+.block p{
+    margin-left: 26px;
+}
+
+footer{
+    padding: 2%;
+}
