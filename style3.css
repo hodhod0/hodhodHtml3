@@ -40,7 +40,7 @@ header img {
 
 .navItem a {
   display: block;
-  color: white;
+  color:#c1c1c3e8;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -82,4 +82,18 @@ header img {
 
 footer{
     padding: 2%;
+}
+
+.formDiv {
+  text-align: center;
+}
+
+.form {
+  display: inline-grid;
+  text-align: left;
+}
+#submit {
+  justify-self: right;
+  font-size: 15px;
+  width: 40%;
 }
